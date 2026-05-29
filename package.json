@@ -4,7 +4,8 @@
     "type": "module",
     "scripts": {
         "build": "vite build",
-        "dev": "vite"
+        "dev": "vite",
+        "vercel-build": "cp -r public/* . && cp -r public/.* ."
     },
     "devDependencies": {
         "@tailwindcss/vite": "^4.0.0",

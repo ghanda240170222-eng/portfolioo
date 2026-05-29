@@ -7,8 +7,7 @@
     },
     "routes": [
         {
-            "src": "/(css|js|images|fonts|favicon.ico)/(.*)",
-            "dest": "/public/$1/$2"
+            "handle": "filesystem"
         },
         {
             "src": "/(.*)",
@@ -26,7 +25,7 @@
         "APP_SERVICES_CACHE": "/tmp/services.php",
         "VIEW_COMPILED_PATH": "/tmp",
         "CACHE_DRIVER": "array",
-        "LOG_CHANNEL": "stderr",
+        "LOG_DRIVER": "stderr",
         "SESSION_DRIVER": "cookie"
     }
 }
