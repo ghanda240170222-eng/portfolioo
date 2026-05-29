@@ -7,7 +7,8 @@
     },
     "routes": [
         {
-            "handle": "filesystem"
+            "src": "/images/(.*)",
+            "dest": "/public/images/$1"
         },
         {
             "src": "/(.*)",
@@ -17,7 +18,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "false",
-        "APP_URL": "https://portfolioo-chdyfeytu-ghanda-ramadhan-siregar-s-projects.vercel.app",
+        "APP_URL": "https://portfolioku-9nd2z7zd8-ghanda-ramadhan-siregar-s-projects.vercel.app",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
         "APP_PACKAGES_CACHE": "/tmp/packages.php",
@@ -25,7 +26,7 @@
         "APP_SERVICES_CACHE": "/tmp/services.php",
         "VIEW_COMPILED_PATH": "/tmp",
         "CACHE_DRIVER": "array",
-        "LOG_DRIVER": "stderr",
+        "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie"
     }
 }
