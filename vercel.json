@@ -7,7 +7,7 @@
     },
     "routes": [
         {
-            "src": "/(.*)",
+            "src": "/(images|css|js|fonts|favicon.ico)/(.*)",
             "dest": "/api/index.php"
         }
     ],
