@@ -5,34 +5,14 @@
             "runtime": "vercel-php@0.7.3"
         }
     },
-    "headers": [
-        {
-            "source": "/images/(.*)",
-            "headers": [
-                {
-                    "key": "Content-Type",
-                    "value": "image/jpg" 
-                },
-                {
-                    "key": "Cache-Control",
-                    "value": "public, max-age=86400"
-                }
-            ]
-        }
-    ],
     "routes": [
         {
-            "handle": "filesystem"
+            "src": "/(css|js|images|fonts|favicon.ico)/(.*)",
+            "dest": "/public/$1/$2"
         },
         {
             "src": "/(.*)",
             "dest": "/api/index.php"
-        }
-    ],
-    "rewrites": [
-        {
-            "source": "/(.*)",
-            "destination": "/index.php"
         }
     ],
     "env": {
