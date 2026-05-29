@@ -200,19 +200,19 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
                 
-                <div class="lg:col-span-4 relative reveal flex justify-center lg:justify-start">
-                    <div class="w-64 h-80 sm:w-72 sm:h-[350px] rounded-3xl overflow-hidden relative group shadow-2xl">
-                        <!-- CATATAN UNTUK LARAVEL: Ganti src dengan {{ asset('images/photo-profil.jpg') }} -->
-                        <img src="/images/photoprofil.jpg?v=1" 
-                             alt="Ghanda Ramadhan" 
-                             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-6">
-                            <p class="text-white font-display text-lg tracking-wide">Deli Serdang, Sumut</p>
-                        </div>
-                    </div>
-                    <!-- Decorative Element -->
-                    <div class="absolute -bottom-6 -right-2 lg:-right-6 w-32 h-32 bg-brand-500 rounded-full blur-2xl opacity-40 -z-10"></div>
-                </div>
+               <div class="lg:col-span-4 relative reveal flex justify-center lg:justify-start">
+    <div class="w-64 h-80 sm:w-72 sm:h-[350px] rounded-3xl overflow-hidden relative group shadow-2xl">
+        
+        <img src="https://i.ibb.co/dsFjkQ5B/photoprofil.jpg" 
+             alt="Ghanda Ramadhan" 
+             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+             
+        <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-6">
+            <p class="text-white font-display text-lg tracking-wide">Deli Serdang, Sumut</p>
+        </div>
+    </div>
+    <div class="absolute -bottom-6 -right-2 lg:-right-6 w-32 h-32 bg-brand-500 rounded-full blur-2xl opacity-40 -z-10"></div>
+</div>
                 
                 <!-- Deskripsi Lebih Humanis -->
                 <div class="lg:col-span-8 space-y-6 reveal" style="transition-delay: 200ms;">
