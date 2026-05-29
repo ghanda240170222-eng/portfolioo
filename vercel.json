@@ -7,8 +7,17 @@
     },
     "routes": [
         {
+            "handle": "filesystem"
+        },
+        {
             "src": "/(.*)",
             "dest": "/api/index.php"
+        }
+    ],
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/index.php"
         }
     ],
     "env": {

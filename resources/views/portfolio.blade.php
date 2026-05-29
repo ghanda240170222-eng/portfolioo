@@ -203,7 +203,7 @@
                 <div class="lg:col-span-4 relative reveal flex justify-center lg:justify-start">
                     <div class="w-64 h-80 sm:w-72 sm:h-[350px] rounded-3xl overflow-hidden relative group shadow-2xl">
                         <!-- CATATAN UNTUK LARAVEL: Ganti src dengan {{ asset('images/photo-profil.jpg') }} -->
-                        <img src="{{ url('images/photo-profil.jpg') }}" 
+                        <img src="{{ asset('images/photo-profil.jpg') }}" 
                              alt="Ghanda Ramadhan" 
                              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-6">
