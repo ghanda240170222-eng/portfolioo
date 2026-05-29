@@ -200,10 +200,10 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
                 
-               <div class="lg:col-span-4 relative reveal flex justify-center lg:justify-start">
+ <div class="lg:col-span-4 relative reveal flex justify-center lg:justify-start">
     <div class="w-64 h-80 sm:w-72 sm:h-[350px] rounded-3xl overflow-hidden relative group shadow-2xl">
         
-        <img src="https://i.ibb.co/dsFjkQ5B/photoprofil.jpg" 
+        <img src="https://lh3.googleusercontent.com/d/1LyWIlqpaUQicual5SOnxfujYGxiIYjq1" 
              alt="Ghanda Ramadhan" 
              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
              
